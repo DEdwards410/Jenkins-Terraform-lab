@@ -4,6 +4,6 @@ terraform {
     key    = "terraform/jenkins.tfstate"
     region = "us-west-2"
     profile = "default"
-    #dynamodb_table = "locking-table"
+    dynamodb_table = "lockeee"
   }
 }
